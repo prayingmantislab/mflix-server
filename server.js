@@ -9,11 +9,13 @@ connectDB();
 app.get('/', (req, res) => res.send('API Running'));
 
 //Init Middleware
-// app.use(express.json({ extended: false }));
+app.use(express.json({ extended: false }));
 // app.use(cors());
 
 // Define Routes
-// app.use('/api/users', require('./routes/api/users'));
+app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/users', require('./routes/api/users'));
+app.use('/api/movies', require('./routes/api/movies'));
 // 
 
 
