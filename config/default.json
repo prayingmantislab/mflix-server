@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://Muadib:Muadib@cluster0.juimuwa.mongodb.net/?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://Muadib:Muadib@cluster0.abl5ct0.mongodb.net/?retryWrites=true&w=majority",
   "jwtSecret": "mysecrettoken"
 }
