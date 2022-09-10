@@ -3,19 +3,20 @@ const connectDB = require('./config/db');
 const app = express();
 const cors = require('cors');
 
-
+app.get('/', (req, res) => res.send('API Running'));
 // Connect Database
-connectDB();
+// connectDB();
 
 //Init Middleware
-app.use(express.json({ extended: false }));
-app.use(cors());
+// app.use(express.json({ extended: false }));
+// app.use(cors());
 
 // Define Routes
 // app.use('/api/users', require('./routes/api/users'));
-app.use('/api/auth', require('./routes/api/auth'));
+// 
 
 
-const PORT = process.env.PORT || 5000;
+
+const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
