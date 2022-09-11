@@ -27,7 +27,6 @@ router.post(
     }
 
     const { username, password } = req.body;
-debugger
     try {
       // See if user exists
         
