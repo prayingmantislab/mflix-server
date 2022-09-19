@@ -1,0 +1,4 @@
+# GET https://www.omdbapi.com/?s=dune&y=2022&apikey=b18c7305
+
+
+GET https://www.omdbapi.com/?type=movies&apikey=b18c7305
